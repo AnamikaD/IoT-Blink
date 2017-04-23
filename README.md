@@ -62,7 +62,7 @@ This assumes you have a Raspberry Pi and can terminal into it.
         5.1 Install onoff
         'npm install onoff --save'
     
-        I needed to apply fix to current release of Jessie Raspbian from errors from this command
+        Note: I needed to apply fix to current release of Jessie Raspbian from errors from this command. You may not need it.
         source: https://www.raspberrypi.org/forums/viewtopic.php?f=66&t=127939
 
         edit file:
@@ -112,7 +112,7 @@ http://thejackalofjavascript.com/raspberry-pi-node-js-led-emit-morse-code/
               
         8.3 Interact with the contract through the wallet by using set function in bottom right of window and set an integer value. 
         
-        8.4 sign the transaction (currently costs around 0.0012 ether) and send it off.
+        8.4 Sign the transaction (currently costs around 0.0012 ether) and send it off.
 
         8.5 2 blocks later, you should have a blinking led assuming step 6 worked for you.  Console window of nodejs ethtest.js should also output a blink message.                 
 
